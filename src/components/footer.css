@@ -1,0 +1,45 @@
+.footer-c {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px; 
+    background: linear-gradient(267deg, #820404 0%, #662074 100%);
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.icon i {
+    font-size: 24px; /* Adjust icon size */
+    color: #fffdfd; /* Icon color */
+    transition: transform 0.3s ease, color 0.3s ease;
+    cursor: pointer; /* Makes icons clickable */
+}
+
+/* Prevents resizing on hover, active, or focus */
+.icon i:hover, .icon i:focus, .icon i:active {
+    transform: none;
+    color: #fdfdfd; /* Optional color change on hover */
+    outline: none; /* Remove focus outline */
+    background-color: transparent; /* Ensure no background color appears */
+    box-shadow: none; /* Removes any shadow effect */
+}
+.git{
+    background-color: rgb(108, 121, 120);
+    padding: 10px;
+    border-radius: 50%;
+}
+.ln{
+    background-color: #054385;
+    padding: 10px;
+    border-radius: 50%;
+}
+.mail{
+    background-color: red;
+    padding: 10px;
+    border-radius: 50%;
+}

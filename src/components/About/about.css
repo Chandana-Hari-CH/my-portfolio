@@ -1,0 +1,66 @@
+
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 80px 170px;
+}
+.about-title{
+    position: relative;
+
+}
+.about-title h1{
+    padding: 0px 30px;
+    font-size: 50px;
+    font-weight: 600;
+    background-image: linear-gradient(267deg, #bf1212 0%, #ce39ec 100%);
+    -webkit-background-clip: text;
+    color: transparent; 
+}
+.about-section{
+    display: flex;
+    gap: 80px;
+
+}
+.about-left img{
+    height: 400px;
+    width: 350px;
+}
+.about-right{
+    display: flex;flex-direction: column;
+    gap: 80px;
+}
+.about-p{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.skills{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    
+}
+.skills h3:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+.skills h3{
+     background: linear-gradient(267deg, #bf1212 0%, #ce39ec 100%);
+     -webkit-background-clip: text;
+    color: transparent; 
+}
+.skill-p {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.skill-p p:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
